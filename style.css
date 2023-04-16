@@ -29,3 +29,11 @@ body {
     display: grid;
     border: 1px solid black;
 }
+
+.board div {
+    transition: all ease 0.1s;
+}
+
+.board div:hover {
+    background-color: rgba(151, 151, 151, 0.8)
+}
